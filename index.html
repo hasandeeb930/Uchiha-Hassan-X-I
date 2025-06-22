@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            height: 18vh;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .box {
+            background-color: #f00;
+            height: 100px;
+            width: 100px;
+            border-radius: 40%;
+            animation: uhx 10s  .5s infinite ;
+            box-shadow: 0 0 25px #00e1ff ;
+            text-align: center;
+
+        }
+        @keyframes uhx {
+            0% { transform: rotate(0); }
+
+            50% { transform: rotate(180deg); }
+
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>loading</h1>
+    </div>
+    <h1></h1>
+</body>
+</html>
